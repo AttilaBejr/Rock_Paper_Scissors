@@ -13,7 +13,6 @@ let humanScore = 0,
 
 function getHumanChoice() {
   humanChoice = prompt("Inserte aquí su juagada");
-  console.log(getComputerChoice);
 
   if (humanChoice.toLowerCase() == "rock" && getComputerChoice == "Rock") {
     result = "Draw";
@@ -91,6 +90,8 @@ function getHumanChoice() {
     console.log(`Player: ${humanScore}, computer: ${computerScore}`);
   } else if (result == "You lose") {
     computerScore++;
+    console.log(`Player: ${humanScore}, computer: ${computerScore}`);
+  } else {
     console.log(`Player: ${humanScore}, computer: ${computerScore}`);
   }
 }
