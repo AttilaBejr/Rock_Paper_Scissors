@@ -98,7 +98,3 @@ function getHumanChoice() {
 for (let i = 1; i <= 5; i++) {
   getHumanChoice();
 }
-
-/* Una variable que genera un número para que el ordenador tenga un movimiento */
-/* Un condicional que según el número aleatorio nos saca un resultado */
-// una función que según el dato insertado nos comprará el resultado contra el ordenador
